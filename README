@@ -8,7 +8,7 @@ How to use this application:
 Use a link to connect these pins:
 J31.3 with J31.5
 
-The program is testing the chosen serial port with string or file by  TX-RX loopback.
+The program is sending a string or a file to the chosen serial port. Data is received via TX-RX loopback and compared.
 
-// To run this program use this command
+// To run this program use this command:
 $ ./serial-loopback-test /dev/ttymxc1 115200 "fedevel"
