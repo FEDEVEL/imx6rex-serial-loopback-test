@@ -1,0 +1,14 @@
+http://www.imx6rex.com
+
+// To compile this file use this command:
+$ arm-linux-gnueabihf-gcc serial-loopback-test.c -o serial-loopback-test 
+
+How to use this application:
+
+Use a link to connect these pins:
+J31.3 with J31.5
+
+The program is testing the chosen serial port with string or file by  TX-RX loopback.
+
+// To run this program use this command
+$ ./serial-loopback-test /dev/ttymxc1 115200 "fedevel"
